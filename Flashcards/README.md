@@ -9,7 +9,7 @@ Tap on the question card to see the answer
 
 ### App Walk-though
 
-<img src="https://imgur.com/a/kqUeuSa" width=200><br>
+<img src="https://github.com/keithmathe/flashcards/blob/main/Flashcards/flashcards.gif" width=200><br>
 
 
 
