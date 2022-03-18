@@ -14,6 +14,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var frontLabel: UILabel!
     @IBOutlet weak var card: UIView!
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationController = segue.destination as! UINavigationController
+        let creationController = navigationController.topViewController as! CreationViewController
+        creationController.flashcardsViewController = self
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         card.layer.cornerRadius = 20.0
@@ -25,6 +31,11 @@ class ViewController: UIViewController {
 
     @IBAction func didTapFlashcard(_ sender: Any) {
         frontLabel.isHidden =  !frontLabel.isHidden
+    }
+    
+    func updateFlashcard(question : String, ans : String) {
+        backLabel.text = ans
+        frontLabel.text = question
     }
 }
 
