@@ -8,7 +8,7 @@ This version of the flashcards app allows you to create your own question-answer
 ### App Walk-though
 
 
-<img src="https://github.com/keithmathe/flashcards/blob/main/Flashcards/flashcards2.gif" width=200><br>
+<img src="https://github.com/keithmathe/flashcards/blob/main/flashcards2.gif" width=200><br>
 
 
 
